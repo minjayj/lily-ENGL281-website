@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A scroll-based digital counterstory about poverty, work, and education.">
+    <title>After the Bell | A Digital Counterstory</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="reading-progress" aria-hidden="true"></div>
+
+    <header class="hero" id="top">
+      <nav class="nav" aria-label="Story navigation">
+        <a class="brand" href="#top">After the Bell</a>
+        <a href="#sources">Sources</a>
+      </nav>
+      <div class="hero-photo" aria-hidden="true">
+        <img src="assets/students-walking.jpeg" alt="">
+      </div>
+      <div class="hero-overlay">
+        <p class="eyebrow">A digital counterstory</p>
+        <h1>After the Bell, the Work Begins.</h1>
+        <p class="hero-meta">June 2026 · Written and designed for a student digital story project</p>
+        <p class="hero-caption">
+          Some students carry more than books: work shifts, family needs, missed buses, and homework waiting past midnight.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="scrolly" id="story" aria-label="Scroll story">
+        <div class="sticky-stage" aria-hidden="true">
+          <div class="stage-sky"></div>
+          <div class="clock" data-clock>6:15 AM</div>
+          <div class="scene scene-room is-active" data-scene="0">
+            <img class="scene-photo" src="assets/classroom-child.webp" alt="">
+            <div class="room-window"></div>
+            <div class="desk">
+              <div class="lamp"></div>
+              <div class="book"></div>
+              <div class="paper"></div>
+            </div>
+            <div class="bed"></div>
+          </div>
+          <div class="scene scene-store" data-scene="1">
+            <div class="shelf"></div>
+            <div class="counter"></div>
+            <div class="price-tags">$3.49<br>$6.20<br>$1.99</div>
+          </div>
+          <div class="scene scene-school" data-scene="2">
+            <img class="scene-photo" src="assets/students-walking.jpeg" alt="">
+            <div class="board">Quiz Friday</div>
+            <div class="desks"></div>
+            <div class="late-slip">Late</div>
+          </div>
+          <div class="scene scene-data" data-scene="3">
+            <div class="chart-card">
+              <p>Child poverty, U.S. average</p>
+              <strong>16%</strong>
+              <span>NCES, 2022</span>
+            </div>
+            <div class="bar-chart">
+              <span style="--h: 48%"></span>
+              <span style="--h: 64%"></span>
+              <span style="--h: 81%"></span>
+              <span style="--h: 68%"></span>
+            </div>
+          </div>
+          <div class="scene scene-choice" data-scene="4">
+            <div class="split-card school-card">Study</div>
+            <div class="split-card work-card">Work</div>
+          </div>
+        </div>
+
+        <article class="story-steps">
+          <section class="step" data-step="0" data-time="6:15 AM">
+            <p class="chapter-label">Scene 1</p>
+            <h2>The alarm is not the beginning.</h2>
+            <p>
+              Maya wakes before sunrise because the apartment is quiet then. Her little brother is still asleep.
+              Her mother is already at work. The sink is full, the laundry is damp, and the math packet is open
+              to the page she could not finish last night.
+            </p>
+            <p>
+              At school, missing homework looks like laziness. At home, it looks like taking care of everybody.
+            </p>
+          </section>
+
+          <section class="step" data-step="1" data-time="4:05 PM">
+            <p class="chapter-label">Scene 2</p>
+            <h2>After the last bell, another shift starts.</h2>
+            <p>
+              She changes shirts in the bathroom and walks to the store. Four hours becomes six when someone
+              calls out. She tells herself she will read on the bus, but standing under fluorescent lights makes
+              every paragraph feel far away.
+            </p>
+            <aside class="research-card">
+              <strong>Research thread:</strong> Student-voice reporting from The Hechinger Report describes
+              students working long hours, using income for food and transportation, and helping family while
+              trying to stay in school.
+            </aside>
+          </section>
+
+          <section class="step" data-step="2" data-time="8:42 AM">
+            <p class="chapter-label">Scene 3</p>
+            <h2>The gradebook does not show the whole day.</h2>
+            <p>
+              Maya misses first period after a late bus and a morning drop-off. The online portal marks it
+              red. Her teacher sees the quiz score before seeing the story behind it.
+            </p>
+            <p>
+              This counterstory pushes back against one easy explanation: that poor students do not care.
+              Maya cares. She is tired.
+            </p>
+          </section>
+
+          <section class="step" data-step="3" data-time="2022-23">
+            <p class="chapter-label">The larger pattern</p>
+            <h2>Her story is personal, but the pressure is not rare.</h2>
+            <div class="stat-grid">
+              <figure>
+                <strong>16%</strong>
+                <figcaption>
+                  U.S. child poverty rate in 2022 among children under 18 living with a related householder.
+                  <small>Source: NCES, Report on the Condition of Education 2024, fig. 1.</small>
+                </figcaption>
+              </figure>
+              <figure>
+                <strong>10%</strong>
+                <figcaption>
+                  13-year-olds who reported missing 5 or more school days in the previous month in 2023, double the 2020 rate.
+                  <small>Source: NCES, 2024, NAEP long-term trend summary.</small>
+                </figcaption>
+              </figure>
+              <figure>
+                <strong>81%</strong>
+                <figcaption>
+                  2021-22 graduation rate for economically disadvantaged public high school students.
+                  <small>Source: NCES, 2024, High School Persistence and Completion.</small>
+                </figcaption>
+              </figure>
+              <figure>
+                <strong>68%</strong>
+                <figcaption>
+                  2021-22 graduation rate for enrolled homeless students.
+                  <small>Source: NCES, 2024, High School Persistence and Completion.</small>
+                </figcaption>
+              </figure>
+            </div>
+          </section>
+
+          <section class="step" data-step="4" data-time="11:58 PM">
+            <p class="chapter-label">Scene 4</p>
+            <h2>She is not choosing between school and work. She is choosing which need becomes urgent first.</h2>
+            <p>
+              The essay asks for a thesis. The kitchen asks for groceries. Her brother asks for help with
+              spelling. Her boss asks if she can stay late.
+            </p>
+            <p>
+              A grade can measure what got turned in. It cannot measure what it cost to turn anything in at all.
+            </p>
+          </section>
+        </article>
+      </section>
+
+      <section class="data-story" aria-labelledby="data-title">
+        <div class="data-intro">
+          <p class="chapter-label">By the numbers</p>
+          <h2 id="data-title">The story in statistics</h2>
+          <p>
+            These graphs use statistics from the NCES 2024 report. They show why a single grade
+            or absence mark can hide bigger pressures around poverty, time, and stability.
+          </p>
+        </div>
+
+        <div class="infographic-grid">
+          <figure class="info-card poverty-card">
+            <div class="donut" style="--percent: 16" aria-label="16 percent"></div>
+            <figcaption>
+              <strong>16% child poverty</strong>
+              <span>U.S. average for children under 18 living with a related householder in 2022.</span>
+              <small>Source: NCES, Report on the Condition of Education 2024, figure 1.</small>
+            </figcaption>
+          </figure>
+
+          <figure class="info-card line-card">
+            <div class="mini-axis">
+              <span class="dot dot-2020">5%</span>
+              <span class="dot dot-2023">10%</span>
+              <i></i>
+            </div>
+            <figcaption>
+              <strong>Absences doubled</strong>
+              <span>13-year-olds reporting 5 or more missed school days in the previous month rose from 5% in 2020 to 10% in 2023.</span>
+              <small>Source: NCES, 2024, NAEP Long-Term Trend reading and mathematics results.</small>
+            </figcaption>
+          </figure>
+
+          <figure class="info-card bar-card">
+            <div class="bars" aria-label="Graduation rate bar graph">
+              <div style="--value: 87"><span>87%</span><em>U.S. average</em></div>
+              <div style="--value: 81"><span>81%</span><em>Economically disadvantaged</em></div>
+              <div style="--value: 68"><span>68%</span><em>Enrolled homeless</em></div>
+            </div>
+            <figcaption>
+              <strong>Graduation rates are not equal</strong>
+              <span>In 2021-22, the public high school graduation rate was lower for economically disadvantaged and enrolled homeless students.</span>
+              <small>Source: NCES, 2024, High School Persistence and Completion.</small>
+            </figcaption>
+          </figure>
+
+          <figure class="info-card score-card">
+            <div class="score-drop">
+              <span>Reading<br><b>-4 pts</b></span>
+              <span>Math<br><b>-9 pts</b></span>
+            </div>
+            <figcaption>
+              <strong>Learning losses were measurable</strong>
+              <span>Average scores for 13-year-olds declined from 2020 to 2023: 4 points in reading and 9 points in mathematics.</span>
+              <small>Source: NCES, 2024, NAEP Long-Term Trend assessment summary.</small>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="turning-point" aria-labelledby="turning-title">
+        <div>
+          <p class="chapter-label">Counterstory</p>
+          <h2 id="turning-title">What changes when someone asks a better question?</h2>
+        </div>
+        <p>
+          Instead of asking, "Why is Maya falling behind?" a counselor asks, "What is taking her time,
+          and what support would give some of it back?"
+        </p>
+        <div class="support-grid">
+          <article>
+            <span>01</span>
+            <h3>Flexible deadlines</h3>
+            <p>Not lower standards, but a recognition that crisis does not follow the school calendar.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Transportation help</h3>
+            <p>A bus pass can be the difference between being present and being marked absent.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Mentoring and advising</h3>
+            <p>Programs like TRIO show how guidance and belonging can help students navigate school systems.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="ending" aria-labelledby="ending-title">
+        <p class="chapter-label">Final frame</p>
+        <h2 id="ending-title">Maya does not need a rescue story.</h2>
+        <p>
+          She needs adults who can read the whole page: the student, the worker, the sister, the tired kid,
+          the capable learner. The counterstory is not that poverty makes success impossible. It is that
+          opportunity should not depend on how much exhaustion a student can hide.
+        </p>
+      </section>
+
+      <section class="sources" id="sources" aria-labelledby="sources-title">
+        <p class="chapter-label">Research + Credits</p>
+        <h2 id="sources-title">Sources used</h2>
+        <ul>
+          <li>
+            NCES. <a href="https://nces.ed.gov/pubs2024/2024144.pdf" target="_blank" rel="noreferrer">
+            Report on the Condition of Education 2024</a>. Used for child poverty, attendance, NAEP, and graduation-rate statistics.
+          </li>
+          <li>
+            The Hechinger Report. <a href="https://hechingerreport.org/student-voice-if-you-want-students-like-me-to-succeed-theres-a-policy-decision-that-works-doubling-pell-grants/" target="_blank" rel="noreferrer">
+            Student Voice: Doubling Pell Grants</a>. Used as background on work, food, transportation, and school pressure.
+          </li>
+          <li>
+            The Hechinger Report. <a href="https://hechingerreport.org/student-voice-if-i-wanted-my-children-to-finish-high-school-and-go-to-college-i-had-to-model-the-path-for-them/" target="_blank" rel="noreferrer">
+            Student Voice: Breaking the cycle of poverty</a>. Used as background on family responsibility, work, and support systems.
+          </li>
+          <li>
+            The New York Times. <a href="https://www.nytimes.com/interactive/2019/11/19/nyregion/student-homelessness-nyc.html" target="_blank" rel="noreferrer">
+            Student Homelessness in NYC</a>. Used only as layout inspiration for a scroll-based story structure.
+          </li>
+        </ul>
+        <p class="source-note">
+          This is an educational project. The character Maya is fictional and should be described as a composite,
+          not as a real quoted interview subject.
+        </p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
