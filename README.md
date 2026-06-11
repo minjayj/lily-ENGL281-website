@@ -12,3 +12,7 @@ A static digital counterstory website about poverty, work, and education. It use
 ## Research note
 
 Maya is a fictional composite character. The story is based on patterns from student-voice reporting and statistics from the NCES `Report on the Condition of Education 2024`.
+
+## Cache-busting
+
+The page uses versioned asset URLs like `styles.css?v=20260610-1` so GitHub Pages and browsers are less likely to serve stale CSS, JavaScript, or images after a new push. When updating the site, bump that version string in `index.html`.
